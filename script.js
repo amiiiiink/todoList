@@ -1,0 +1,48 @@
+const inputbox = document.getElementById("input-box")
+const listContainer = document.getElementById("list-container")
+
+
+function addTask(){
+    if (inputbox.value === ""){
+        customAlert.style.display = 'block';
+    }else {
+        let li = document.createElement('li');
+        li.innerHTML=inputbox.value;
+        listContainer.appendChild(li);
+        let span = document.createElement("span")
+        span.innerHTML = "\u00d7";
+        li.appendChild(span)
+    }
+    inputbox.value="";
+    saveData();
+}
+
+listContainer.addEventListener("click",function (e){
+    if(e.target.tagName === "LI"){
+        e.target.classList.toggle("checked");
+        saveData();
+    }else if (e.target.tagName === "SPAN") {
+        e.target.parentElement.remove();
+        saveData();
+    }
+},false)
+
+function saveData()
+{
+    localStorage.setItem('data',listContainer.innerHTML)
+}
+
+function showTasks()
+{
+    listContainer.innerHTML = localStorage.getItem('data');
+}
+showTasks();
+
+const showAlertBtn = document.getElementById('showAlertBtn');
+const closeAlertBtn = document.getElementById('closeAlertBtn');
+const customAlert = document.getElementById('customAlert');
+
+
+closeAlertBtn.addEventListener('click', () => {
+    customAlert.style.display = 'none';
+});
