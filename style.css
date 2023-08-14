@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(0.25turn, #153677,#4e085f);
+    background: linear-gradient(0.25turn, #5b82c7, #a02ec1);
     padding: 10px;
 }
 .todo-app{
@@ -14,11 +14,11 @@
     max-width: 540px;
     background: #fff;
     border-radius: 10px;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    margin: 100px auto;
+    padding: 40px 30px  ;
 }
 .todo-app h2{
-    color: #002765;
+    color: #001165;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -37,7 +37,7 @@
     margin-bottom: 25px;
 }
 input{
-    flex: 1;
+    /*flex: 19;*/
     border: none;
     outline: none;
     background: transparent;
@@ -57,7 +57,7 @@ ul li{
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
-    /*user-select: none;*/
+    user-select: none;
     cursor: pointer;
     position: relative;
 }
@@ -95,27 +95,21 @@ ul li span:hover{
     background: #edeef0;
     border-radius: 50%;
 }
-#showAlertBtn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 .custom-alert {
     position: fixed;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: #a2abc6;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
     max-width: 400px;
     text-align: center;
     display: none;
+    color: #000;
 }
 
 .alert-content {
@@ -132,7 +126,6 @@ ul li span:hover{
 
 #closeAlertBtn {
     padding: 8px 16px;
-    background-color: #ccc;
     border: none;
     border-radius: 5px;
     cursor: pointer;
