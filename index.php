@@ -49,7 +49,7 @@
             <div class="box">
                 <h3>Quiz App</h3>
                 <p class="mt-5">
-                    <a class="btn btn-sm btn-outline-primary" href="quizApp/index.php">CLICK HERE TO USE</a>
+                    <a class="btn btn-sm btn-outline-primary" href="quizApp/index.html">CLICK HERE TO USE</a>
                 </p>
             </div>
         </div>
