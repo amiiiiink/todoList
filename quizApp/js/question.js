@@ -27,11 +27,11 @@ let questions = [
         b: "mahdi",
         c: "mohammad mahdi"
     }, "c"),
-    new Question("When is my birthday time?", {
-        a: "20 May",
-        b: "20 january",
-        c: "8 january"
-    }, "b"),
+    new Question("چه کسی میداند آی پی چیست؟", {
+        a: "آرش",
+        b: "جلیل",
+        c: "صدرا"
+    }, "c"),
     new Question("پسته پسته ی؟", {
         a: "بیگی",
         b: "موسوی",
