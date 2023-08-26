@@ -1,5 +1,5 @@
 body {
-    background-color: #F1DFD1;
+    background: linear-gradient(0.25turn, #5b82c7, #a02ec1);
 }
 
 .btn-start,
@@ -44,7 +44,7 @@ body {
 }
 
 .option-list .option {
-    border: 1px solid #ee2c3f;
+    /*border: 1px solid #bcaba9;*/
     border-radius: 5px;
     padding: 8px 15px;
     margin-bottom: 10px;
@@ -58,12 +58,12 @@ body {
 }
 
 .option-list .option:hover {
-    background-color: rgb(100, 130, 250);
+    background-color: #95a5a6;
 }
 
 .option-list .option.correct {
     color: #1f1411;
-    background: #2EFF2E;
+    background: #2ecc71;
 }
 
 .option-list .option.incorrect {
@@ -121,7 +121,7 @@ header {
 .time {
     display: flex;
     align-items: center;
-    background-color: #ee2c3f;
+    background-color: #95a5a6;
     border-radius: 5px;
     padding: 2px 5px;
     color: #fff;
@@ -139,12 +139,12 @@ header {
     border-radius: 5px;
     text-align: center;
     padding: 1px;
-    background-color: rgb(69, 33, 174);
+    background-color: #7f8c8d;
 }
 
 /* Time Line */
 .time-line {
-    background-color: #ee2c3f;
+    background-color: #e74c3c;
     height: 5px;
     /* width: 600px; */
     position: absolute;

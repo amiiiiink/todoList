@@ -22,29 +22,29 @@ class Question {
 }
 
 let questions = [
-    new Question("What is the capital of Azerbaijan?", {
-        a: "Baku",
-        b: "Sumgait",
-        c: "Ganja"
-    }, "a"),
-    new Question("When is Triumph Day?", {
-        a: "28 May",
-        b: "18 October",
-        c: "8 November"
+    new Question("What is the first name of Mr poustini?", {
+        a: "mehdi",
+        b: "mahdi",
+        c: "mohammad mahdi"
     }, "c"),
-    new Question("What is the National Dish of our country?", {
-        a: "Plov",
-        b: "Doner",
-        c: "Sushi"
-    }, "a"),
-    new Question("The birthplace of crude oil : ", {
-        a: "Saudi Arabia",
-        b: "Azerbaijan",
-        c: "USA"
+    new Question("When is my birthday time?", {
+        a: "20 May",
+        b: "20 january",
+        c: "8 january"
     }, "b"),
-    new Question("When was the Baku European Games?", {
+    new Question("What is the AMIIIINK?", {
+        a: "amin karimi",
+        b: "amin agha daesh",
+        c: "the best developer"
+    }, "a"),
+    new Question("what is the best football team in iran? : ", {
+        a: "Sepahan",
+        b: "Esteghlal",
+        c: "shams azar"
+    }, "b"),
+    new Question("When Mr Poustini got married?", {
         a: "in 2020",
         b: "in 2017",
-        c: "in 2015"
+        c: "parsal"
     }, "c")
 ];
