@@ -32,11 +32,11 @@ let questions = [
         b: "20 january",
         c: "8 january"
     }, "b"),
-    new Question("What is the AMIIIINK?", {
-        a: "amin karimi",
-        b: "amin agha daesh",
-        c: "the best developer"
-    }, "a"),
+    new Question("پسته پسته ی؟", {
+        a: "بیگی",
+        b: "موسوی",
+        c: "اکبری"
+    }, "c"),
     new Question("what is the best football team in iran? : ", {
         a: "Sepahan",
         b: "Esteghlal",
