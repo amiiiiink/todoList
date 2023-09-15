@@ -61,7 +61,9 @@
                 $(this).hide();
             });
             // Increment the artwork index or loop back to the first artwork
+
             currentArtwork = (currentArtwork + 1) % $(".artwork").length;
+
 
             // Show the next artwork with an animation
             $(".artwork:eq(" + currentArtwork + ")").css("left", "-100%").show().animate({ left: "0" }, 500);

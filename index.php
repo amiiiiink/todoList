@@ -69,6 +69,14 @@
                 </p>
             </div>
         </div>
+        <div class="col-md-3">
+            <div class="box">
+                <h3>Jquery Image Uploader</h3>
+                <p>
+                    <a class="btn btn-sm btn-outline-primary" href="JqueryImageUpload/index.php">CLICK HERE TO USE</a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 

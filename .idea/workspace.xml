@@ -6,13 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3b61363c-2f8f-46df-96ca-63b89113d2ef" name="Changes" comment="make analog clock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/JqueryImageUpload/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -55,7 +58,8 @@
       <workItem from="1693085051432" duration="398000" />
       <workItem from="1693735896308" duration="633000" />
       <workItem from="1694506309002" duration="2756000" />
-      <workItem from="1694766181848" duration="500000" />
+      <workItem from="1694766181848" duration="4977000" />
+      <workItem from="1694818776348" duration="304000" />
     </task>
     <servers />
   </component>
