@@ -48,6 +48,8 @@
     <div class="artwork" style="background-image: url('3.jpg');"></div>
 </div>
 
+
+
 <script>
     $(document).ready(function() {
         // Track the currently displayed artwork
